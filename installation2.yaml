@@ -1,0 +1,11 @@
+schemaVersion: 1.0.2
+name: desired-state
+bundle:
+  repository: ghcr.io/getporter/examples/credentials-tutorial
+  version: 0.3.0
+parameterSets:
+  - credentials-tutorial
+credentialSets:
+  - github
+parameters:
+  user: vdice

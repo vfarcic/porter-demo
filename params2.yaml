@@ -1,0 +1,6 @@
+schemaVersion: 1.0.1
+name: credentials-tutorial
+parameters:
+  - name: user
+    source:
+      value: carolynvs
