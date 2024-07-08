@@ -1,6 +1,8 @@
-project: dot
 providers:
-  google_secretmanager:
-    env:
-      GITHUB_TOKEN:
-        path: projects/vfarcic/secrets/github-token/versions/2
+  google_secrets_manager:
+    kind: google_secretmanager
+    maps:
+      - id: secrets
+        path: projects/vfarcic
+        keys:
+          github-token: GITHUB_TOKEN
